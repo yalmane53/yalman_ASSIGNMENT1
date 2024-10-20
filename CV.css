@@ -1,0 +1,41 @@
+/* Error text styling */
+.error-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.5px;  /* Slightly reduced letter spacing */
+  color: #d9534f;         /* Changed color to a red tone for error indication */
+  margin-bottom: 10px;     /* Added space below the error message */
+}
+
+/* Regular button styling */
+.button-regular {
+  width: 160px;            /* Slightly wider for more content */
+  height: 50px;
+  font-size: 16px;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #28a745; /* Changed to a green tone (success-style button) */
+  border: 2px solid #218838; /* Added a subtle border with a darker shade */
+  color: #ffffff;
+  letter-spacing: 1.2px;    /* Slightly increased letter spacing */
+  border-radius: 5px;       /* Added rounded corners */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15); /* Lightened shadow effect */
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  line-height: 50px;
+  user-select: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-regular:hover {
+  background-color: #218838; /* Slightly darker green on hover */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.25); /* Slightly increased shadow on hover */
+}
+
+@media (min-width: 768px) {
+  .button-regular {
+    width: 210px;          /* Increased width for larger screens */
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+  }
+}

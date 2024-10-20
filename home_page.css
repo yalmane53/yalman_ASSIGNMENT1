@@ -1,0 +1,161 @@
+/* Navbar background and text color */
+.navbar-custom {
+    background-color: #1a3a5f !important;  /* Darkened the background color */
+    color: #f8f9fa !important;  /* Slightly lighter white */
+}
+
+.navbar-right {
+    margin-left: 300px;
+    margin-top: 0px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a3a5f;  /* Updated to match .navbar-custom */
+    box-shadow: 0 1px 100px rgba(26, 58, 95, 0.5); /* Added transparency to the shadow */
+    height: 100px !important;
+    padding-bottom: 15px;
+}
+
+/* Update the background color for the entire page */
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0a1e30;  /* Darker background for contrast */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.height-full {
+    height: max(calc(100vh - 100px), fit-content);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #f8f9fa;  /* Lighter white */
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.navbar-brand {
+    font-size: 26px;  /* Slightly larger font size */
+    font-weight: bold;
+    color: #00aaff;  /* Added color for brand emphasis */
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+    color: white;
+}
+
+.nav-item:hover {
+    transform: translateY(-5px);
+    color: #00e0ff;  /* Brighter color on hover */
+}
+
+/* General container styling */
+.container4, .container5, .container6 {
+    max-width: 1200px;  /* Set a maximum width for consistency */
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.container5, .container4 {
+    background-color: #1f1f25;  /* Slightly lighter background for contrast */
+    text-align: right;
+    padding-right: 40px;
+}
+
+.container6 {
+    background-color: #f8f9fa;  /* Lightened background */
+    text-align: left;
+    padding-left: 20px;
+}
+
+.center_text {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.just_text {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* Text styles */
+.name_text, .name_w_text {
+    font-family: "Titillium-web";
+    font-size: 3rem;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+    text-align: center;
+}
+
+.name_text {
+    color: #222;  /* Darker text color */
+}
+
+.name_w_text {
+    color: #fff;
+}
+
+.name_text:hover, .name_w_text:hover {
+    text-shadow: 0px 4px rgba(230, 11, 11, 0.822);
+    transform: translateY(-5px);
+}
+
+/* Info text */
+.info_text {
+    color: #007bff;  /* Adjusted to a softer blue */
+    font-family: Panton;
+    font-size: larger;
+    text-align: center;
+}
+
+/* Image styles */
+img {
+    border: 2px solid #ddd;
+    border-radius: 20px;  /* Less rounding for a sharper look */
+    padding: 5px;
+    max-width: 100%;
+    margin: 40px;
+    max-height: 300px;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    box-shadow: 0 0 30px 10px #00aaff;  /* Reduced shadow size and changed color */
+    transform: translateY(-10px);
+}
+

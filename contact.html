@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home_page.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255);">Yalman Ahmed</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html" style="color: rgb(255, 255, 255);">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html" style="color: rgb(255, 255, 255);">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CV.html" style="color: rgb(255, 255, 255);">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="color:aqua;">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container5 height-full">
+        <div class="center">
+            <section id="contact">
+                <div class="center">
+                    <h1 class="name_w_text">Contact</h1>
+                </div>
+                <div class="contact-wrapper">
+                    <!-- Left contact form -->
+                    <div class="form-horizontal" style="margin-right: 50px;">
+                        <form id="contactForm" >
+                            <div class="form-group">
+                                <label for="name" class="sr-only">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="sr-only">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="sr-only">Subject</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="sr-only">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn send-button">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Right contact info -->
+                    <div class="direct-contact-container">
+                        <ul class="contact-list">
+                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span
+                                        class="contact-text place">Lahore, Punjab</span></i></li>
+                            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a
+                                            href="tel:+92 334 4281208" title="Give me a call">+92 334 4281208</a></span></i></li>
+                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a
+                                            href="mailto:251729610@formanite.fccollege.edu.pk" title="Send me an email">251729610@formanite.fccollege.edu.pk</a></span></i></li>
+                        </ul>
+                        <hr>
+                        <ul class="social-media-list">
+                            <a href="#" target="_blank" class="contact-icon">
+                                <li><i class="fab fa-github"></i></li>
+                            </a>
+                            <a href="#" target="_blank" class="contact-icon">
+                                <li><i class="fab fa-linkedin"></i></li>
+                            </a>
+                            <a href="#" target="_blank" class="contact-icon">
+                                <li><i class="fab fa-instagram"></i></li>
+                            </a>
+                            <a href="#" target="_blank" class="contact-icon">
+                                <li><i class="fas fa-code"></i></li>
+                            </a>
+                        </ul>
+                        <hr>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
